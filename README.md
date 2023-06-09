@@ -70,5 +70,5 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](/LICENSE) para m
 Feito com :orange_heart: by [Davi Amom](https://github.com/davifrt)
 
 <p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/daviamom/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/daviamom/" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/daviamom/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn Davi Amom" height="30" width="40" /></a>
 </p>
