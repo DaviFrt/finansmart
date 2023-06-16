@@ -42,6 +42,15 @@ export const Content = styled(Dialog.Content)`
       color: ${({ theme }) => theme.white};
     }
   }
+
+  @media (max-width: 680px) {
+    width: 100%;
+    min-width: auto;
+    height: 60%;
+
+    position: relative;
+    bottom: 0;
+  }
 `
 
 export const SubmitButton = styled.button.attrs({ type: 'submit' })`

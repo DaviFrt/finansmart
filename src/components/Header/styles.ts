@@ -28,6 +28,30 @@ export const HeaderContent = styled.div`
   span {
     color: ${({ theme }) => theme['green-300']};
   }
+
+  @media (max-width: 1180px) {
+    max-width: 90%;
+
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    button {
+      font-size: 0.875rem;
+    }
+  }
+
+  @media (max-width: 680px) {
+    h1 {
+      font-size: 1.4rem;
+    }
+  }
+
+  @media (max-width: 340px) {
+    h1 {
+      font-size: 1rem;
+    }
+  }
 `
 
 export const CreateButton = styled.button`

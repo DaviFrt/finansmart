@@ -10,6 +10,10 @@ export const MonthSelectorContainer = styled.div`
 
   background-color: ${({ theme }) => theme['gray-600']};
   border-radius: 6px;
+
+  @media (max-width: 1180px) {
+    max-width: 90%;
+  }
 `
 
 export const Button = styled.button`

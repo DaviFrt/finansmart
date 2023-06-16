@@ -4,6 +4,11 @@ export const TransactionsContainer = styled.main`
   width: 100%;
   max-width: 70rem;
   margin: 0 auto;
+
+  @media (max-width: 680px) {
+    max-width: 90%;
+    overflow: auto;
+  }
 `
 
 export const TransactionsTable = styled.table`

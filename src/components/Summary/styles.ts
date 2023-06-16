@@ -8,6 +8,12 @@ export const SummaryContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+
+  @media (max-width: 1180px) {
+    max-width: 90%;
+
+    overflow: auto;
+  }
 `
 
 interface SummaryCardProps {
@@ -15,6 +21,7 @@ interface SummaryCardProps {
 }
 
 export const SummaryCard = styled.div<SummaryCardProps>`
+  min-width: 17.5rem;
   padding: 2rem;
 
   background-color: ${({ theme }) => theme['gray-600']};
